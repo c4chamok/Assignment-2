@@ -187,6 +187,51 @@ header{
 .works-count>div{
     padding: 10px;
 }
+/* main style */
+main{
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Sect 1 style */
+.sect1{
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sect-title h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.sect-content{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.content-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.content-card .card-img img{
+    border-radius: 50%;
+}
+.content-card h4{
+    margin-top: 10px;
+    text-align: center;
+}
+.sect1 p{
+    margin-top: 10px;
+    text-align: center;
+}
 
 
 

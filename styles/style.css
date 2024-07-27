@@ -233,5 +233,43 @@ main{
     text-align: center;
 }
 
+/* Sect 2 style */
+.sect2{
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 16px;
+    background-color: rgb(40, 40, 40);
+    margin-bottom: 30px;
+    
+}
+.sect2-div{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    height: 268px;
+}
+.sect2-left{
+    display: flex;
+    align-items: center;
+    width: 400px;
+}
+.sect2-left .sect-title h2{
+    text-align: start;
+}
 
+.sect2-left p{
+    margin-top: 10px;
+}
+
+.sect2-left button{
+    margin-top: 20px;
+}
+
+.sect2-right img{
+    border-radius: 15px;
+    height: 100%;
+}
 

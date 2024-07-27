@@ -273,3 +273,90 @@ main{
     height: 100%;
 }
 
+/* Sect 3 style */
+.sect3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sect3 .sect-title{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sect3-div2{
+    width: 100%;
+    background: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.container-div{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+    align-items: center;
+}
+.container-div h3{
+    font-size: 1.75rem;
+}
+.bmi-chart table{
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+.bmi-chart table thead{
+    color: aliceblue;
+}
+.bmi-chart td{
+     border: 2px solid rgba(255, 255, 255, 0.1);
+     padding: 13px 20px;
+}
+.form{
+    margin-top: 20px;
+}
+.form .btn-primary{
+    width: 200px;
+    margin-top: 20px;
+}
+
+.calc-title p{
+    margin-top: 10px;
+}
+
+.bmi-calc {
+    width: 60%;
+}
+.bmi-calc input[type^="text"] ,.bmi-calc select{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 8px;
+    width: calc(50% - 10px);
+    height: 48px;
+    margin: 5px 5px 0px 0px;
+    padding: 0px;
+    font-size: 1.1rem;
+    text-indent: 10px;
+    color: rgba(239, 237, 232, 0.65);
+}
+.bmi-calc select[name^="factor"]{
+    margin:5px 0 0 0;
+    width: calc(100% - 10px);
+}
+input[type^="text"]:focus{
+    outline: none;
+}
+select:focus{
+    outline: none;
+}
+select option{
+    background-color: rgb(81, 76, 76);
+    border: none;
+    border-radius: 5px;
+    /* color: rgba(239, 237, 232, 0.65); */
+}
+

@@ -360,3 +360,113 @@ select option{
     /* color: rgba(239, 237, 232, 0.65); */
 }
 
+
+
+
+
+/* responsive style */
+@media screen and (max-width: 572px) {
+    h1{
+        color: aliceblue;
+        font-size: 2.9rem;
+        font-weight: 900;
+    }
+
+    header{
+        height: max-content;
+        margin: 0;
+    }
+    /* .navbar{
+
+    } */
+    .menu-btn{
+        display: block;
+        color: bisque;
+        font-size: 2rem;
+    }
+    .nav-links{
+        display: none;
+    }
+
+    .banner{
+        /* height: 450px; */
+        height: fit-content;
+        width: 90%;
+        margin: 0;
+        margin-top: 50px;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    
+    .title-div{
+        min-width: 300px;
+        max-width: 300px;
+    }
+    .btn-div{
+        gap: 15px;
+    }
+    .btn-div .btn-primary{
+        padding: 12px 25px;
+    }
+    .btn-div .join{
+        width: 163px;
+    }
+    .btn-div .download{
+        width: 159px;
+    }
+    .tuts-count{
+        margin-top: 250px;
+        margin-left: -15px;
+    }
+    .works-count{
+        margin-top: 60px;
+        margin-left: 180px;
+    }
+    .div2-img{
+        height: 80%;
+        width: 340px;
+    }
+    .div2-img img{
+        height: 100%;
+        width: 100%;
+    }
+
+    /* main */
+
+    .sect-content{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .sect2-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        gap: 50px;
+        height: fit-content;
+    }
+    .sect2-left{
+        width: 100%;
+    }
+    .sect2-left>div{
+        width: 100%;
+    }
+    .sect2-left .btn-primary{
+        width: 100%;
+        padding: 5px 70px;
+    }
+
+    .sect2-right img{
+        width: 100%;
+    }
+
+    .container-div{
+        flex-direction: column;
+        gap: 70px;
+    }
+    .sect3{
+        display: block;
+    }
+    .bmi-calc {width: 100%};
+}

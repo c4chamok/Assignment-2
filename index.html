@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    />
 </head>
 <body>
     <header class="header">
@@ -13,20 +15,22 @@
                 <h3>Fitness</h3>
                 <div class="nav-links">
                     <ul>
-                        <li><a href=""><button>Home</button></a></li>
+                        <li><a href=""><button class="home-btn">Home</button></a></li>
                         <li><a href=""><button>Service</button></a></li>
                         <li><a href=""><button>Contact</button></a></li>
                         <li><a href=""><button>About</button></a></li>
                     </ul>
                 </div>
-                <div class="menu-btn">menu</div>
+                <div class="menu-btn">
+                    <i class="fa-solid fa-bars  fa-xl" style="color: #f5fbff;"></i>
+                </div>
             </nav>
         </section>
         <section class="banner">
             <div class="banner-div1">
                 <div class="title-div">
                     <h1>Get body in 
-                        shape & stay
+                        <span id="miama-txt">shape</span> & stay
                         healthy</h1>
                     <p>A huge selection of health and fitness content, healthy recipes 
                         and transformation stories to help you get fit and stay fit!</p>
@@ -39,7 +43,12 @@
             <div class="banner-div2">
                 <div class="tuts-count">
                     <div>
-                        <div class="play-img"></div>
+                        <div class="play-img">
+                            <div class="play">
+                                <div class="triangle-up"></div>
+                                <div class="circle"></div>
+                            </div>
+                        </div>
                         <div class="count-div">
                             <h3>350+</h3>
                             <p>Video tutorial</p>
@@ -77,25 +86,25 @@
                 </div>
                 <div class="content-card">
                     <div class="card-img">
-                        <img src="./images/image 3.png" alt="">
+                        <img src="./images/image 2.png" alt="">
                     </div>
-                    <h4>Movement</h4>
+                    <h4>Time</h4>
                     <p>We believe fitness should be
                         accessible to everyone</p>
                 </div>
                 <div class="content-card">
                     <div class="card-img">
-                        <img src="./images/image 3.png" alt="">
+                        <img src="./images/image 4.png" alt="">
                     </div>
-                    <h4>Movement</h4>
+                    <h4>Practice</h4>
                     <p>We believe fitness should be
                         accessible to everyone</p>
                 </div>
                 <div class="content-card">
                     <div class="card-img">
-                        <img src="./images/image 3.png" alt="">
+                        <img src="./images/image 5.png" alt="">
                     </div>
-                    <h4>Movement</h4>
+                    <h4>Weight Loss</h4>
                     <p>We believe fitness should be
                         accessible to everyone</p>
                 </div>
@@ -169,8 +178,8 @@
                                 <option value="" disabled selected>
                                     Select an activity factor
                                 </option>
-                                <option value="">Trademil</option>
-                                <option value="">Cycle</option>
+                                <option value="">Running</option>
+                                <option value="">Cycling</option>
                             </select><br>
                             <input type="submit" value="Calculate" class="btn-primary">
                         </form>
@@ -178,7 +187,92 @@
                 </div>   
             </div>
         </section>
+        <section class="sect4">
+            <div class="sect-title">
+                <h2>Meet Our Team</h2>
+                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+            </div>
+            <div class="grid-container">
+                <div class="instructors-grid">
+                    <div class="trainer">
+                        <div class="trainer-id">
+                            <h3>Jerome Bell</h3>
+                            <p>trainer</p>
+                        </div>
+                        <div class="img-overlay"></div>
+                        <div class="img-div"><img src="./images/trainer1.png" alt=""></div>
+                    </div>
+                    <div class="trainer">
+                        <div class="trainer-id">
+                            <h3>Dianne Russell</h3>
+                            <p>trainer</p>
+                        </div>
+                        <div class="img-overlay"></div>
+                        <div class="img-div"><img src="./images/trainer2.png" alt=""></div>
+                    </div>
+                    <div class="trainer">
+                        <div class="trainer-id">
+                            <h3>Cameron Williamson</h3>
+                            <p>trainer</p>
+                        </div>
+                        <div class="img-overlay"></div>
+                        <div class="img-div"><img src="./images/trainer3.png" alt=""></div>
+                    </div>
+                    <div class="trainer">
+                        <div class="trainer-id">
+                            <h3>Cody Fisher</h3>
+                            <p>trainer</p>
+                        </div>
+                        <div class="img-overlay"></div>
+                        <div class="img-div"><img src="./images/trainer4.png" alt=""></div>
+                    </div>
+                    <div class="trainer">
+                        <div class="trainer-id">
+                            <h3>Darrell Steward</h3>
+                            <p>trainer</p>
+                        </div>
+                        <div class="img-overlay"></div>
+                        <div class="img-div"><img src="./images/trainer5.png" alt=""></div>
+                    </div>
+                    <div class="trainer">
+                        <div class="trainer-id">
+                            <h3>Theresa Webb</h3>
+                            <p>trainer</p>
+                        </div>
+                        <div class="img-overlay"></div>
+                        <div class="img-div"><img src="./images/trainer6.png" alt=""></div>
+                    </div>
+                </div>
+            </div>    
+        </section>
     </main>
-
+    <footer>
+        <div class="footer-content">
+            <div class="footer-div">
+                <h2>Fitness</h2>
+                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+            </div>
+            <div class="footer-menu">
+                <h3>Get Started</h3>
+                <ul>
+                    <li><a href="">Service</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Affiliate Program</a></li>
+                    <li><a href="">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-menu">
+                <h3>Get Started</h3>
+                <ul>
+                    <li><a href="">Fitness</a></li>
+                    <li><a href="">Platform</a></li>
+                    <li><a href="">Workout Libary</a></li>
+                    <li><a href="">App Design</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="site-credit">All right reserved @Fitness 2024</p>
+    </footer>
 </body>
 </html>
